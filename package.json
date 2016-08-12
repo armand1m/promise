@@ -1,0 +1,25 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "Simple implementation of Promises A+",
+  "main": "index.js",
+  "scripts": {
+      "test": "run-my-own-tests && promises-aplus-tests test/my-adapter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/armand1m/promise"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "Armando Magalhães",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/armand1m/promise/issues"
+  },
+  "homepage": "https://github.com/armand1m/promise",
+  "devDependencies": {
+    "promises-aplus-tests": "*"
+  }
+}
